@@ -1,0 +1,203 @@
+  *{
+            padding: 0%;
+            margin: 0% ;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #4f46e5, #10b981);
+            color: #ffffff;
+              padding: 0%;
+            margin: 0% ;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .navbar{
+           
+             box-shadow: 5px 5px 5px  black;
+        }
+     .buyplan {
+            text-decoration: none;
+            color: white;
+           background-color: greenyellow;
+            padding:9px;
+            outline: white;
+            border:none;
+         
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: none;
+            margin: 15px;
+        }
+        .footer {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .cardhead {
+              box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(0, 0, 0, 0.305);
+            border-radius: 5%;
+              margin: 5px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+        }
+        .cardhead:hover{
+           background: linear-gradient(135deg,  #10b981,#4f46e5);
+            color: gold;
+        }
+        .marqueeline{
+            border: 1px solid black;
+            padding: 0%;
+            
+        }
+        .ep{
+             box-shadow: 0 0 5px #504e46de, 0 0 25px #504e46de;
+              background: linear-gradient(135deg,#10b981, #4f46e5);
+            padding: 0%;
+            margin: 0%;
+           overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        .img{
+            
+            margin-top: -5px;
+        }
+        .slides{
+            height: 10%;
+            padding: 5%;
+        }
+        .containerp{
+            margin: 4%;
+        }
+        .circle{
+            width: 100px;
+    height: 100px;
+    background-color: #e6e3d865; /* Gold color */
+    clip-path: circle(50% at left top); /* Circular shape at top-left */
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0%;
+    margin : 0%;
+     transition: width 0.4s ease, height 0.5s ease;
+        }
+       .ep:hover .circle {
+  width: 5000px;
+  height: 5000px;
+
+  }
+  .earningplanebtn{
+    background-color: transparent;
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    outline: none;
+    color: white;
+      display: flex;
+            justify-content: space-between;
+}
+ button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/*ep page heading*/
+#userdet{
+    text-decoration:none;
+    list-style: none;
+}
+li{
+      text-decoration:none;
+    list-style: none;
+}
+.ep1ul{
+  margin-left: 15px;
+   
+}
+.epbtn{
+    margin-left: 80px;
+    
+}
+.epheading{
+    font-size: bold;
+    color: gold;
+    text-decoration: underline;
+}
+.hidden{
+    display: none;
+}
+.visibility{
+    
+    visibility: visible;
+}
+.nav{
+    position: static;
+}
+  select {
+        font-size: 14px;
+    margin: 15px;}
+    .bnb_class{
+        width: auto;
+        padding: 3px;
+        
+    }
+#payproof{
+    margin: 15px;
+}
+.userdet{
+    color: gold;
+}
+.btn{
+    cursor: pointer;
+}
+.hidden{
+   display: none;
+}
+.dnone{
+   display: none;
+}
+#dailyearn {
+              /* for centering content inside it */
+    justify-content: center;   /* center inner items horizontally */
+    padding: 2rem;
+    margin:  auto;             /* center this whole div horizontally */
+}
+ .timercard {
+            font-size: 12px;
+              box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.3);
+             
+           
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+        }
+        .timercard:hover{
+           background: linear-gradient(135deg,  #10b981,#4f46e5);
+            color: gold;
+           
+        }
+        #withdraw{
+            margin-left: 35px;
+           
+
+        }
+    #trxt{
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .refcode{
+        margin-right: 10px;
+     
+        display: flex;
+        justify-content: space-between;
+        
+    }
+       /*withdraw form*/
+       

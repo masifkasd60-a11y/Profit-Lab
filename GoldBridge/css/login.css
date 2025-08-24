@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.containerlg{
+    background: linear-gradient(75deg, rgb(59, 194, 228),white );
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    box-shadow: 5px 5px 10px black;
+}
+.heading{
+color: antiquewhite;
+text-align: center;
+}
